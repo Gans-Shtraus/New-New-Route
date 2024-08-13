@@ -1,0 +1,13 @@
+.appHeader {
+    border-style: solid;
+    grid-area: h;
+    
+    }
+  .appHeader p{
+    font-size: 30px;
+    margin-top: -3px;
+    color: gold;
+    
+  }
+    
+   

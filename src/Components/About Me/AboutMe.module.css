@@ -1,0 +1,45 @@
+.main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.hello p{
+    text-align: left;
+    margin-left: 10px;
+    
+    
+}
+.hobby{
+    color: aqua;
+
+}
+
+ .music {
+    color: aqua;
+    text-align: left;
+    margin-left: 2%;
+    animation-duration: 3s;
+  animation-name: slidein;
+
+ }
+ @keyframes slidein{
+    from{
+      margin-left: 100%;
+      width: 700%;
+    }
+    to{
+      margin-left: 2%;
+      width: 100%;
+    }
+  }
+  .js {
+    animation-duration: 4s;
+  animation-name: slidein;
+  color: aqua;
+  }
+  .sportClub{
+    text-align: right;
+    animation-duration: 5s;
+    animation-name: slidein;
+    color: aqua;
+  }

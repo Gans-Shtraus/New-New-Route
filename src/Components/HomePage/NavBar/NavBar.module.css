@@ -1,0 +1,61 @@
+.NavBar{
+    text-align: left;
+    border-style: solid;
+    grid-area: n;
+  
+}
+.NavBar p{
+  margin-left: 20px;
+  font-size: 20px;
+ 
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  width: fit-content;
+
+  
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .NavBar p:before, .NavBar p:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+  
+  .NavBar p:before {
+    left: -2.5px;
+  }
+  .NavBar p:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .NavBar p:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .NavBar p:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+
+  .appLink {
+    color: #61dafb;
+    margin: 5px;
+    text-decoration: none;
+
+  }
+  .activeLink {
+    color: blue;
+  }
