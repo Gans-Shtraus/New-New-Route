@@ -6,10 +6,10 @@ const Profile = () => {
         <>
         <div className= {s.helloWorld}>
             <p>Hello, my name is Vlad</p>
-            <p>I am </p>
-            <p>Hello, my name is Vlad</p>
-            <p>Hello, my name is Vlad</p>
-            <p>Hello, my name is Vlad</p>
+            <p>Me 24 old </p>
+            <p>I am Frontend-Developer</p>
+            <p>who is good boy?</p>
+            <p>Yep it s me</p>
 
         <div className={s.img}>
             <img src="https://twam.ru/wp-content/uploads/2024/02/anime-avy-4.webp" alt="" />
