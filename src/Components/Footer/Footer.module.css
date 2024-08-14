@@ -1,0 +1,35 @@
+.runningLineWrapper {
+    grid-area: f;
+    border-style: solid;
+
+
+
+}
+.runningLineWrapper {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.runningLine {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #61dafb;
+    white-space: nowrap;
+}
+.runningLine {
+    animation: run 10s linear infinite;
+}
+@keyframes run {
+    from {
+        transform: translateX(0%);
+    }
+    /* Magic is here. This is the width of the elem with text after rendering the page */
+    to {
+        transform: translateX(-1683.35px);
+    }
+}
+.runningLine span{
+    margin: 20px;
+}

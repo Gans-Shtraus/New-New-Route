@@ -4,8 +4,8 @@ import s from './Blog.module.css'
 const Blog = () => {
     return (
         <>
-        <div>
-        blogg
+        <div className={s.main}>
+        <h1>My Blog</h1>
         </div>
         </>
     )

@@ -1,13 +1,13 @@
 .appHeader {
     border-style: solid;
     grid-area: h;
+    background-color: #232323;
     
     }
   .appHeader p{
     font-size: 30px;
     margin-top: -3px;
-    color: gold;
-    
+    color: #61dafb;
   }
-    
-   
+
+

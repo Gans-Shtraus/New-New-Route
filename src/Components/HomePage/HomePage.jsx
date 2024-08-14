@@ -1,16 +1,23 @@
 import React from "react";
 
 import s from './HomePage.module.css'
-import { Header } from "./Header/Header";
-import { NavBar } from "./NavBar/NavBar";
-import { Content } from "./Content/Content";
+
+
+let count = 0;
 
 const HomePage = () => {
     return (
         <>
+
         <div className= {s.HomePage}>
 
-<Content/>
+            <button id={'button'} onClick={ ()=> {
+                count++;
+                console.log(count)
+            }} >
+take
+            </button>
+
         </div>
         </>
     )

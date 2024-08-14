@@ -13,12 +13,20 @@ const AboutMe = () => {
         <div className={s.interests}>
           <p className={s.hobby}>Some of my hobbies</p>
           <p className={s.music}>Music</p>
-          <p className={s.js}>JS/React/Redux</p>
+          <p className={s.js}>Traveling</p>
           <p className={s.sportClub}>Sports & Active Chill</p>
         </div>
 
         <div className={s.mySoftSkills}>
           <p className= {s.someSkills}>Some of my skills</p>
+          <div className={s.buttons}>
+            <button className={s.button}>React/Redux</button>
+            <button className={s.button}>GIT</button>
+            <button className={s.button}>HTML/CSS</button>
+            <button className={s.button}>JS</button>
+
+
+          </div>
         </div>
       </div>
     </>

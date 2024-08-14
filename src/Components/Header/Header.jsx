@@ -6,9 +6,7 @@ const Header = () => {
     return (
         <>
          <div className={s.appHeader}>
-          <header >
-           <p>Welcome to the club</p>
-          </header>
+           <p className={s.glitch}>Welcome to the club</p>
         </div>
         </>
     )
